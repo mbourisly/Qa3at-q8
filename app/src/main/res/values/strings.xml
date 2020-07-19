@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Qa3at q8</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="list">
+        <item>Wedding</item>
+        <item>Birthday</item>
+        <item>Graduation</item>
+        <item>Conference</item>
+
+
+    </string-array>
+
+
+    <array name="division">
+        <item>Book it online</item>
+        <item>Book an appointment to see the place</item>
+
+
+    </array>
+</resources>

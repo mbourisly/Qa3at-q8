@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu"
+    android:background="@drawable/menu">
+
+
+    <ImageView
+        android:id="@+id/userimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/usericon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:id="@+id/profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My profile"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@id/userimage"
+        android:textSize="25sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="160dp"
+        android:fontFamily="@font/gabriela"/>
+
+    <TextView
+        android:id="@+id/bookings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My bookings"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@id/profile"
+        android:textSize="25sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/gabriela"/>
+
+    <TextView
+        android:id="@+id/reviews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My reviews"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@id/bookings"
+        android:textSize="25sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/gabriela"/>
+
+
+    <TextView
+        android:id="@+id/wishlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wish list"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@id/reviews"
+        android:textSize="25sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/gabriela"/>
+
+    <TextView
+        android:id="@+id/share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share this app"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@id/wishlist"
+        android:textSize="25sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="70dp"
+        android:fontFamily="@font/gabriela"/>
+
+    <ImageView
+        android:id="@+id/xicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/x_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@id/share"
+        android:layout_marginTop="90dp"/>
+
+
+</RelativeLayout>

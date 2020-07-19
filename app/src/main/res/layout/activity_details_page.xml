@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".details_page"
+    android:background="@drawable/details_bg">
+
+    <TextView
+        android:id="@+id/details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your details"
+        android:fontFamily="@font/gabriela"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="29dp"
+        android:layout_height="35dp"
+        android:layout_alignTop="@id/details"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/back_arrow" />
+
+    <ImageView
+        android:id="@+id/userimage1"
+        android:layout_width="127dp"
+        android:layout_height="122dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="95dp"
+        app:srcCompat="@drawable/usericon" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Username"
+        android:layout_alignTop="@id/userimage1"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="60dp"
+        android:paddingLeft="10dp"
+        android:fontFamily="@font/gabriela"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/firstname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="First name"
+        android:layout_alignTop="@id/userimage1"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="150dp"
+        android:paddingLeft="10dp"
+        android:fontFamily="@font/gabriela"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/lastname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Last name"
+        android:layout_alignTop="@id/firstname"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:paddingLeft="10dp"
+        android:fontFamily="@font/gabriela"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/phonenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="Phone number"
+        android:layout_alignTop="@id/lastname"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:paddingLeft="10dp"
+        android:fontFamily="@font/gabriela"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="301dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="550dp"
+        android:background="@drawable/btn_"
+        android:text="Submit"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/gabriela"/>
+
+
+</RelativeLayout>

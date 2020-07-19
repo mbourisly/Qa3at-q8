@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".explorePage"
+    android:background="@drawable/explore_bg">
+
+    <Button
+        android:id="@+id/explorebtn"
+        android:layout_width="308dp"
+        android:layout_height="78dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="550dp"
+        android:background="@drawable/explore_btn"
+        android:fontFamily="@font/gabriela"
+        android:text="Explore"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+
+    <Spinner
+        android:id="@+id/spinnir"
+        android:layout_width="235dp"
+        android:layout_height="46dp"
+        android:layout_centerHorizontal="true"
+        android:entries="@array/list"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/drop_box"
+        android:paddingLeft="15dp"
+        android:spinnerMode="dialog"/>
+
+
+
+    <ImageView
+        android:id="@+id/menubtn"
+        android:layout_width="50dp"
+        android:layout_height="39dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        app:srcCompat="@drawable/menu_btn" />
+
+    <Button
+        android:id="@+id/date"
+        android:layout_width="235dp"
+        android:layout_height="46dp"
+        android:text="Select a date"
+        android:layout_alignTop="@id/spinnir"
+        android:layout_marginTop="130dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/drop_box"
+        android:textAlignment="textStart"
+        android:paddingLeft="23dp"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:fontFamily="@font/gabriela"/>
+</RelativeLayout>

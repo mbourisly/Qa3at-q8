@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="400dp"
+    android:layout_height="400dp"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:layout_gravity="center"
+    android:background="@drawable/rec3"
+    android:id="@+id/ll">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/check2"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/gabriela"
+        android:paddingTop="8dp"
+        android:text="Booking succesful!"
+        android:textAlignment="center"
+        android:textColor="#58DB96"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="109dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/gabriela"
+        android:paddingTop="8dp"
+        android:text="One of our representatives will contact you soon"
+        android:textAlignment="center"
+        android:textColor="#818181"
+        android:textSize="25sp" />
+
+
+
+
+</LinearLayout>

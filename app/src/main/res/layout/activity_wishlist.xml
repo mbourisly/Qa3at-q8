@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".wishlist"
+    android:background="@drawable/wish_bg">
+
+    <TextView
+        android:id="@+id/wish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wish list"
+        android:fontFamily="@font/gabriela"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:id="@+id/backButton3"
+        android:layout_width="29dp"
+        android:layout_height="35dp"
+        android:layout_alignTop="@id/wish"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/back_arrow" />
+
+    <ImageView
+        android:id="@+id/wishimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/wishlist_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"/>
+
+    <TextView
+        android:id="@+id/description3"
+        android:layout_width="360dp"
+        android:layout_height="120dp"
+        android:layout_alignTop="@id/wishimage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:fontFamily="@font/gabriela"
+        android:text="Your wish list is emoty you should start adding to it"
+        android:textAlignment="center"
+        android:textColor="#818181"
+        android:textSize="25sp" />
+
+
+</RelativeLayout>

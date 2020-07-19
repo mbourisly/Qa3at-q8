@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/reviews_bg"
+    tools:context=".reviewsPage">
+
+    <TextView
+        android:id="@+id/reviewsPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/gabriela"
+        android:text="My reviews"
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/backButton2"
+        android:layout_width="29dp"
+        android:layout_height="35dp"
+        android:layout_alignTop="@id/reviewsPage"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/back_arrow" />
+
+    <ImageView
+        android:id="@+id/ratingimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/rating_img"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"/>
+
+    <TextView
+        android:id="@+id/description1"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/ratingimage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:fontFamily="@font/gabriela"
+        android:text="You dont have any reviews yet"
+        android:textAlignment="center"
+        android:textColor="#818181"
+        android:textSize="25sp" />
+
+
+</RelativeLayout>

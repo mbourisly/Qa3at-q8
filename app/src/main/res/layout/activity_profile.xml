@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profilebackground"
+    tools:context=".profile">
+
+
+    <TextView
+        android:id="@+id/profilePage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My profile"
+        android:fontFamily="@font/gabriela"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="29dp"
+        android:layout_height="35dp"
+        android:layout_alignTop="@id/profilePage"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/back_arrow" />
+
+    <Button
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/edit_group"
+        android:text="Edit your profile"
+        android:fontFamily="@font/gabriela"
+        android:textSize="25sp"
+        android:textColor="#818181"
+        android:textAllCaps="false"/>
+
+    <ImageView
+        android:id="@+id/userimage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/usericon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@id/userimage1"
+        android:textSize="25sp"
+        android:textColor="#818181"
+        android:layout_marginTop="130dp"
+        android:fontFamily="@font/gabriela"/>
+
+
+</RelativeLayout>
